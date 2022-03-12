@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace Wordie.Website.Pages
 {
-    public class IndexModel : PageModel
+    public class WordiiieModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        private readonly ILogger<WordiiieModel> _logger3;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public WordiiieModel(ILogger<WordiiieModel> logger)
         {
-            _logger = logger;
+            _logger3 = logger;
         }
 
         public void OnGet()

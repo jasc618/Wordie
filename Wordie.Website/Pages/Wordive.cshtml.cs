@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace Wordie.Website.Pages
 {
-    public class PrivacyModel : PageModel
+    public class WordiveModel : PageModel
     {
-        private readonly ILogger<PrivacyModel> _logger;
+        private readonly ILogger<WordiveModel> _logger4;
 
-        public PrivacyModel(ILogger<PrivacyModel> logger)
+        public WordiveModel(ILogger<WordiveModel> logger)
         {
-            _logger = logger;
+            _logger4 = logger;
         }
 
         public void OnGet()
