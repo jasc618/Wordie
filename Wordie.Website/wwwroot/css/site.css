@@ -2,9 +2,27 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+a.green {
+    color: #6aaa64;
+}
+
+a.yellow {
+    color: #c9b458;
+}
+
+a.grey-lightmode {
+    color: #787c7e;
+}
+
+a.grey-darkmode {
+    color: #3a3a3c;
 }
 
 /* Provide sufficient contrast against white background */
@@ -13,9 +31,9 @@ a {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
